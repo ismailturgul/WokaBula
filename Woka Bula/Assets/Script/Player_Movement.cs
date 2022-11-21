@@ -16,6 +16,7 @@ public class Player_Movement : MonoBehaviour
             input.x = Input.GetAxisRaw("Horizontal");   // + or - value when pressed
             input.y = Input.GetAxisRaw("Vertical");     // + or - value when pressed
 
+            if (inpux.x != 0) input.y = 0;
             if (input != Vector2.zero)
             {
                 var target_Pos = transform.position;
