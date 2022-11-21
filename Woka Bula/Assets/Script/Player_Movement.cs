@@ -9,7 +9,7 @@ public class Player_Movement : MonoBehaviour
     private bool is_Moving;
     private Vector2 input;
 
-    void Update()
+    private void Update()
     {
         if (!is_Moving)
         {
@@ -21,7 +21,7 @@ public class Player_Movement : MonoBehaviour
                 var target_Pos = transform.position;
                 target_Pos.x += input.x;
                 target_Pos.y += input.y;
-
+                Debug.Log("was geht ?");
                 StartCoroutine(Move(target_Pos));
             }
         }
@@ -29,6 +29,7 @@ public class Player_Movement : MonoBehaviour
     //chorotine
     IEnumerator Move(Vector3 target_Pos)
     {
+        is_Moving= true;
         while ((target_Pos - transform.position).sqrMagnitude > Mathf.Epsilon)
         {
 
