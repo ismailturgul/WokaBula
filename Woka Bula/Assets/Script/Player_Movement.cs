@@ -16,7 +16,10 @@ public class Player_Movement : MonoBehaviour
             input.x = Input.GetAxisRaw("Horizontal");   // + or - value when pressed
             input.y = Input.GetAxisRaw("Vertical");     // + or - value when pressed
 
-            if (inpux.x != 0) input.y = 0;
+            // removes diagonal movement !
+            if (input.x != 0) input.y = 0;
+
+            // if player moves, set the x + y position to the current position
             if (input != Vector2.zero)
             {
                 var target_Pos = transform.position;
@@ -27,18 +30,18 @@ public class Player_Movement : MonoBehaviour
             }
         }
     }
-    //chorotine
+    //corotine for movement
     IEnumerator Move(Vector3 target_Pos)
     {
         is_Moving= true;
-        while ((target_Pos - transform.position).sqrMagnitude > Mathf.Epsilon)
+        while ((target_Pos - transform.position).sqrMagnitude > Mathf.Epsilon)  // while current and target position is bigger then 0 ( so, while the player is moving)
         {
 
-            transform.position = Vector3.MoveTowards(transform.position, target_Pos, move_Speed * Time.deltaTime);
+            transform.position = Vector3.MoveTowards(transform.position, target_Pos, move_Speed * Time.deltaTime); // add velocity to the movement
             yield return null;
         }
-        transform.position = target_Pos;
+        transform.position = target_Pos;  // target position is now current position
 
-        is_Moving = false;
+        is_Moving = false; // player stops moving
     }
 }
