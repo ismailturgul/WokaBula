@@ -9,6 +9,12 @@ public class Player_Movement : MonoBehaviour
     private bool is_Moving;
     private Vector2 input;
 
+    private Animator animator;
+
+    private void Awake()
+    {
+        animator = GetComponent<Animator>();
+    }
     private void Update()
     {
         if (!is_Moving)
@@ -22,13 +28,18 @@ public class Player_Movement : MonoBehaviour
             // if player moves, set the x + y position to the current position
             if (input != Vector2.zero)
             {
+                animator.SetFloat("move_X", input.x);
+                animator.SetFloat("move_Y", input.y);
+
+
                 var target_Pos = transform.position;
                 target_Pos.x += input.x;
                 target_Pos.y += input.y;
-                Debug.Log("was geht ?");
+                
                 StartCoroutine(Move(target_Pos));
             }
         }
+        animator.SetBool("is_Moving", is_Moving);
     }
     //corotine for movement
     IEnumerator Move(Vector3 target_Pos)
