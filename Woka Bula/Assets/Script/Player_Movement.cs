@@ -5,6 +5,7 @@ using UnityEngine;
 public class Player_Movement : MonoBehaviour
 {
     public float move_Speed;
+    public LayerMask solid_Objects_Layer;
 
     private bool is_Moving;
     private Vector2 input;
@@ -35,8 +36,8 @@ public class Player_Movement : MonoBehaviour
                 var target_Pos = transform.position;
                 target_Pos.x += input.x;
                 target_Pos.y += input.y;
-                
-                StartCoroutine(Move(target_Pos));
+                if (is_Walkable(target_Pos))
+                 StartCoroutine(Move(target_Pos));
             }
         }
         animator.SetBool("is_Moving", is_Moving);
@@ -54,5 +55,13 @@ public class Player_Movement : MonoBehaviour
         transform.position = target_Pos;  // target position is now current position
 
         is_Moving = false; // player stops moving
+    }
+    private bool is_Walkable(Vector3 target_Pos)
+    {
+       if(Physics2D.OverlapCircle(target_Pos, 0.3f, solid_Objects_Layer) != null)
+        {
+            return false;
+        }
+        return true;
     }
 }
