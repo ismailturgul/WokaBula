@@ -36,7 +36,7 @@ public class Player_Movement : MonoBehaviour
                 var target_Pos = transform.position;
                 target_Pos.x += input.x;
                 target_Pos.y += input.y;
-                if (is_Walkable(target_Pos))
+                if (Is_Walkable(target_Pos))
                  StartCoroutine(Move(target_Pos));
             }
         }
@@ -56,9 +56,9 @@ public class Player_Movement : MonoBehaviour
 
         is_Moving = false; // player stops moving
     }
-    private bool is_Walkable(Vector3 target_Pos)
+    private bool Is_Walkable(Vector3 target_Pos)
     {
-       if(Physics2D.OverlapCircle(target_Pos, 0.3f, solid_Objects_Layer) != null)
+       if(Physics2D.OverlapCircle(target_Pos, 0.2f, solid_Objects_Layer) != null)
         {
             return false;
         }
