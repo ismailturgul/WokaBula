@@ -2,7 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class WokaBula_Base : MonoBehaviour
+[CreateAssetMenu(fileName = "WokaBula", menuName = "WokaBula/Create new wokaBula")]
+public class WokaBula_Base : ScriptableObject
 {
 
     [SerializeField] string name;
