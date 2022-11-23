@@ -586,3 +586,108 @@ Received Import Request.
   path: Assets/Game/Resources/WokaBulas/Monster1.asset
   artifactKey: Guid(9c2daf1a844ef7d4e96d770a40339482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
 Start importing Assets/Game/Resources/WokaBulas/Monster1.asset using Guid(9c2daf1a844ef7d4e96d770a40339482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90d29eb3a8189597ae0869af77357a67') in 0.029205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 412.555068 seconds.
+  path: Assets/Art/Snake_1.png
+  artifactKey: Guid(9018d744e0f184747afb448964adc3b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/Snake_1.png using Guid(9018d744e0f184747afb448964adc3b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7112a75012ec870a517d8d7ef9c134af') in 0.244062 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 25.315440 seconds.
+  path: Assets/Art/WokaBulas
+  artifactKey: Guid(a828e11ca2030f54cadddd5e66304d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/WokaBulas using Guid(a828e11ca2030f54cadddd5e66304d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a3ad49ad1a95af8c5bfa8611634be41') in 0.003474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 107.018215 seconds.
+  path: Assets/Game/Resources/WokaBulas/Monster1.asset
+  artifactKey: Guid(9c2daf1a844ef7d4e96d770a40339482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Resources/WokaBulas/Monster1.asset using Guid(9c2daf1a844ef7d4e96d770a40339482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecbd43ef18ac3085ab2fdf6671756e35') in 0.004033 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 55.085232 seconds.
+  path: Assets/Game/Resources/WokaBulas/Monster1.asset
+  artifactKey: Guid(9c2daf1a844ef7d4e96d770a40339482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Resources/WokaBulas/Monster1.asset using Guid(9c2daf1a844ef7d4e96d770a40339482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc7b8a2a16622949da628b5d6950920f') in 0.004144 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1353.069445 seconds.
+  path: Assets/Game/Resources/WokaBulas/Monster2.asset
+  artifactKey: Guid(80ca8d4cfeee48c4aa2979153a4bebc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Resources/WokaBulas/Monster2.asset using Guid(80ca8d4cfeee48c4aa2979153a4bebc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dd52e45656256d988a6e4e41a6bc85b') in 0.004609 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 66.962035 seconds.
+  path: Assets/Art/WokaBulas/Deer_1.png
+  artifactKey: Guid(b15d2944d8a8cd14cad3ff11af4f685f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Art/WokaBulas/Deer_1.png using Guid(b15d2944d8a8cd14cad3ff11af4f685f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a86435b903e8d2e4f884ed25a8563c3') in 0.025544 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.571409 seconds.
+  path: Assets/Game/Resources/WokaBulas/Monster2.asset
+  artifactKey: Guid(80ca8d4cfeee48c4aa2979153a4bebc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Resources/WokaBulas/Monster2.asset using Guid(80ca8d4cfeee48c4aa2979153a4bebc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bbb85098e5f6012b9f9e40c809c61f8') in 0.004296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 71.420026 seconds.
+  path: Assets/Script/WokaBula/WokaBula.cs
+  artifactKey: Guid(55935e359e0f787439f2119b2b620245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Script/WokaBula/WokaBula.cs using Guid(55935e359e0f787439f2119b2b620245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28d70c9ed80a048c04c2be7a0151ae8c') in 0.003791 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.016338 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Users\Ismail\Documents\GitHub\WokaBula\WokaBula\Woka Bula\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\Ismail\Documents\GitHub\WokaBula\WokaBula\Woka Bula\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.28 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.676 seconds
+Domain Reload Profiling:
+	ReloadAssembly (2677ms)
+		BeginReloadAssembly (228ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (8ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (47ms)
+		EndReloadAssembly (1998ms)
+			LoadAssemblies (1087ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (298ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (80ms)
+			SetupLoadedEditorAssemblies (467ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (18ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (92ms)
+				ProcessInitializeOnLoadAttributes (293ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
+				AfterProcessingInitializeOnLoad (12ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 58.71 ms, found 6 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4058 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 48 unused Assets / (197.0 KB). Loaded Objects now: 4569.
+Memory consumption went from 155.8 MB to 155.6 MB.
+Total: 4.266100 ms (FindLiveObjects: 0.375800 ms CreateObjectMapping: 0.102300 ms MarkObjects: 3.532100 ms  DeleteObjects: 0.254500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
