@@ -23,6 +23,20 @@ public class WokaBula_Base : ScriptableObject
     [SerializeField] int sp_Defense;
     [SerializeField] int speed;
 
+    public string Name { get { return name; } }
+    public string Description { get { return description; } }
+    public Sprite Front_Sprite { get { return Front_Sprite; } }
+    public Sprite Back_Sprite { get { return Back_Sprite; } }
+    public WokaBulaType Type1 { get { return type1; } }
+    public WokaBulaType Type2 { get { return type2; } }
+    public int Max_Hp { get { return max_Hp; } }
+    public int Attack { get { return attack; } }
+    public int Defense { get { return defense; } }
+    public int Sp_Attack { get { return sp_Attack; } }
+    public int Sp_Defense { get { return sp_Defense; } }
+    public int Speed { get { return speed; } }
+
+
     public enum WokaBulaType
     {
         None,
