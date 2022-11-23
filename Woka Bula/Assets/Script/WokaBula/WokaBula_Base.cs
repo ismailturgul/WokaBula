@@ -13,7 +13,14 @@ public class WokaBula_Base : MonoBehaviour
     [SerializeField] Sprite back_Sprite;
     [SerializeField] WokaBulaType type1;
     [SerializeField] WokaBulaType type2;
-    
+
+    //Base Stats
+    [SerializeField] int max_Hp;
+    [SerializeField] int attack;
+    [SerializeField] int defense;
+    [SerializeField] int sp_Attack;
+    [SerializeField] int sp_Defense;
+    [SerializeField] int speed;
 
     public enum WokaBulaType
     {
