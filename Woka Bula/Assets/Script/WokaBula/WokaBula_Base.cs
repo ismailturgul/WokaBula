@@ -4,15 +4,29 @@ using UnityEngine;
 
 public class WokaBula_Base : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
+    [SerializeField] string name;
+
+    [TextArea]
+    [SerializeField] string description;
+    [SerializeField] Sprite front_Sprite;
+    [SerializeField] Sprite back_Sprite;
+    [SerializeField] WokaBulaType type1;
+    [SerializeField] WokaBulaType type2;
+    
+
+    public enum WokaBulaType
     {
-        
+        None,
+        Nomen,
+        Substantiv,
+        Adjektiv,
+        Zahlwort,
+        Pronomen,
+        Verb,
+        Partizip,
+        Adv_Partizip,
+        Adverb,
+        Zustandswort
     }
 }
