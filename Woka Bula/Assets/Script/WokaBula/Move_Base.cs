@@ -1,18 +1,27 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using static WokaBula_Base;
 
-public class Move_Base : MonoBehaviour
+[CreateAssetMenu(fileName = "WokaBula", menuName = "WokaBula/Create new Move")]
+public class Move_Base : ScriptableObject
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
+    [SerializeField] string name;
+
+    [TextArea]
+
+    [SerializeField] string description;
+
+    [SerializeField] WokaBulaType type;
+    [SerializeField] int power;  // if said correct normal dmg, if not divide by 2
+    [SerializeField] int accuracy; // if 3x in a row a correct answer, give a Bonus-dmg
+
+
+    public string Name { get { return name; } }
+    public string Description { get { return description; } }
+    public WokaBulaType Type { get { return type; } }
+    public int Power { get { return power; } }
+    public int Accuracy { get { return accuracy; } }
+
 }
