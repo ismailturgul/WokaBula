@@ -23,6 +23,10 @@ public class WokaBula_Base : ScriptableObject
     [SerializeField] int sp_Defense;
     [SerializeField] int speed;
 
+
+    [SerializeField] List<Learnable_Move> learnable_Moves;
+
+
     public string Name { get { return name; } }
     public string Description { get { return description; } }
     public Sprite Front_Sprite { get { return Front_Sprite; } }
@@ -35,7 +39,17 @@ public class WokaBula_Base : ScriptableObject
     public int Sp_Attack { get { return sp_Attack; } }
     public int Sp_Defense { get { return sp_Defense; } }
     public int Speed { get { return speed; } }
+    public List<Learnable_Move> Learnable_Moves { get { return learnable_Moves; } }
 
+    [System.Serializable]
+    public class Learnable_Move
+    {
+        [SerializeField] Move_Base move_Base;
+        [SerializeField] int level;
+
+        public Move_Base Base { get { return move_Base; } }
+        public int Level { get { return level; } }
+    }
 
     public enum WokaBulaType
     {
