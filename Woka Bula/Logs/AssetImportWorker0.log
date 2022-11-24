@@ -15,7 +15,7 @@ C:/Users/Ismail/Documents/GitHub/WokaBula/WokaBula/Woka Bula
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-60892
+63007
 Successfully changed project path to: C:/Users/Ismail/Documents/GitHub/WokaBula/WokaBula/Woka Bula
 C:/Users/Ismail/Documents/GitHub/WokaBula/WokaBula/Woka Bula
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,7 +47,7 @@ C:/Users/Ismail/Documents/GitHub/WokaBula/WokaBula/Woka Bula
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 111.73 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 114.98 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.13f1 (9e7d58001ecf)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/Resources/UnitySubsystems
@@ -63,167 +63,92 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56508
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56860
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.13f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.012247 seconds.
+Registered in 0.012532 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 105.34 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 99.40 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.792 seconds
+- Completed reload, in  0.752 seconds
 Domain Reload Profiling:
-	ReloadAssembly (792ms)
-		BeginReloadAssembly (96ms)
+	ReloadAssembly (753ms)
+		BeginReloadAssembly (88ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (554ms)
-			LoadAssemblies (93ms)
+		EndReloadAssembly (526ms)
+			LoadAssemblies (86ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (119ms)
+			SetupTypeCache (118ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (33ms)
-			SetupLoadedEditorAssemblies (334ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (318ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (12ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (105ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (163ms)
-				ProcessInitializeOnLoadMethodAttributes (52ms)
+				RefreshPlugins (99ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (153ms)
+				ProcessInitializeOnLoadMethodAttributes (53ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.021192 seconds.
+Registered in 0.019037 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Ismail\Documents\GitHub\WokaBula\WokaBula\Woka Bula\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Ismail\Documents\GitHub\WokaBula\WokaBula\Woka Bula\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 104.26 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 111.97 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.424 seconds
+- Completed reload, in  1.415 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1425ms)
-		BeginReloadAssembly (142ms)
+	ReloadAssembly (1416ms)
+		BeginReloadAssembly (133ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
+			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (23ms)
-		EndReloadAssembly (1140ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (1130ms)
 			LoadAssemblies (121ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (294ms)
+			SetupTypeCache (297ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (71ms)
-			SetupLoadedEditorAssemblies (604ms)
+			RebuildScriptCaches (73ms)
+			SetupLoadedEditorAssemblies (587ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (104ms)
-				BeforeProcessingInitializeOnLoad (117ms)
-				ProcessInitializeOnLoadAttributes (306ms)
-				ProcessInitializeOnLoadMethodAttributes (58ms)
+				RefreshPlugins (112ms)
+				BeforeProcessingInitializeOnLoad (113ms)
+				ProcessInitializeOnLoadAttributes (294ms)
+				ProcessInitializeOnLoadMethodAttributes (49ms)
 				AfterProcessingInitializeOnLoad (12ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 1.72 ms, found 6 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 1.30 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4062 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 61 unused Assets / (230.5 KB). Loaded Objects now: 4537.
+Unloading 4064 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 61 unused Assets / (230.5 KB). Loaded Objects now: 4539.
 Memory consumption went from 151.4 MB to 151.2 MB.
-Total: 3.896600 ms (FindLiveObjects: 0.412000 ms CreateObjectMapping: 0.102000 ms MarkObjects: 3.195300 ms  DeleteObjects: 0.186200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 4309.954491 seconds.
-  path: Assets/Plugins
-  artifactKey: Guid(77aef405f453f7c44a267b8103e50252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Plugins using Guid(77aef405f453f7c44a267b8103e50252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a33c9e4bc2abbbc4681f0d6ef3156f7') in 0.010762 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 28.831333 seconds.
-  path: Assets/Script/Player
-  artifactKey: Guid(ae9445784909e514293de2e72c1a1f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/Player using Guid(ae9445784909e514293de2e72c1a1f09) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f14fd3f6c96dfa92f2e97fd4c86277b') in 0.003581 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.755812 seconds.
-  path: Assets/Script/Player_Controller.cs
-  artifactKey: Guid(22c0c4816d8ffe941bd1dd7739c66cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/Player_Controller.cs using Guid(22c0c4816d8ffe941bd1dd7739c66cd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90c274f27fb012c644a2fed1041d30fc') in 0.226601 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.017184 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Ismail\Documents\GitHub\WokaBula\WokaBula\Woka Bula\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Ismail\Documents\GitHub\WokaBula\WokaBula\Woka Bula\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.07 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.268 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1269ms)
-		BeginReloadAssembly (174ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (43ms)
-		EndReloadAssembly (966ms)
-			LoadAssemblies (143ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (309ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (426ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (92ms)
-				ProcessInitializeOnLoadAttributes (258ms)
-				ProcessInitializeOnLoadMethodAttributes (48ms)
-				AfterProcessingInitializeOnLoad (11ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.82 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4056 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 49 unused Assets / (197.0 KB). Loaded Objects now: 4539.
-Memory consumption went from 151.4 MB to 151.2 MB.
-Total: 3.564600 ms (FindLiveObjects: 0.332500 ms CreateObjectMapping: 0.093900 ms MarkObjects: 2.978600 ms  DeleteObjects: 0.158700 ms)
+Total: 4.240800 ms (FindLiveObjects: 0.387200 ms CreateObjectMapping: 0.101500 ms MarkObjects: 3.554400 ms  DeleteObjects: 0.196400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -238,214 +163,7 @@ AssetImportParameters requested are different than current active one (requested
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.016756 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Ismail\Documents\GitHub\WokaBula\WokaBula\Woka Bula\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Ismail\Documents\GitHub\WokaBula\WokaBula\Woka Bula\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.34 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.334 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1335ms)
-		BeginReloadAssembly (228ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (58ms)
-		EndReloadAssembly (966ms)
-			LoadAssemblies (183ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (303ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (426ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (95ms)
-				ProcessInitializeOnLoadAttributes (253ms)
-				ProcessInitializeOnLoadMethodAttributes (48ms)
-				AfterProcessingInitializeOnLoad (11ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.40 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4056 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 48 unused Assets / (197.0 KB). Loaded Objects now: 4542.
-Memory consumption went from 151.4 MB to 151.2 MB.
-Total: 3.838900 ms (FindLiveObjects: 0.443000 ms CreateObjectMapping: 0.115200 ms MarkObjects: 3.082100 ms  DeleteObjects: 0.197500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 28.387793 seconds.
-  path: Assets/Script/WokaBula
-  artifactKey: Guid(dcc9a378539c526429caaed9cccfbecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/WokaBula using Guid(dcc9a378539c526429caaed9cccfbecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9717b6d4294801911cbec3cd85702d49') in 0.009243 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 41.474693 seconds.
-  path: Assets/Script/WokaBula/WokaBula_Base.cs
-  artifactKey: Guid(edb7dc5aa1f38424aa8ceb476205fbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/WokaBula/WokaBula_Base.cs using Guid(edb7dc5aa1f38424aa8ceb476205fbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b9e688cd38cc0ae790c27aef337e775') in 0.003073 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.018393 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Ismail\Documents\GitHub\WokaBula\WokaBula\Woka Bula\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Ismail\Documents\GitHub\WokaBula\WokaBula\Woka Bula\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.47 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.254 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1255ms)
-		BeginReloadAssembly (184ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (45ms)
-		EndReloadAssembly (951ms)
-			LoadAssemblies (139ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (290ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (436ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (95ms)
-				ProcessInitializeOnLoadAttributes (259ms)
-				ProcessInitializeOnLoadMethodAttributes (48ms)
-				AfterProcessingInitializeOnLoad (11ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.71 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4057 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 48 unused Assets / (196.9 KB). Loaded Objects now: 4546.
-Memory consumption went from 151.4 MB to 151.2 MB.
-Total: 3.681800 ms (FindLiveObjects: 0.349500 ms CreateObjectMapping: 0.103100 ms MarkObjects: 3.053100 ms  DeleteObjects: 0.174600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.016576 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Ismail\Documents\GitHub\WokaBula\WokaBula\Woka Bula\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Ismail\Documents\GitHub\WokaBula\WokaBula\Woka Bula\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.04 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.227 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1228ms)
-		BeginReloadAssembly (169ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (8ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (41ms)
-		EndReloadAssembly (937ms)
-			LoadAssemblies (133ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (304ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (414ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (92ms)
-				ProcessInitializeOnLoadAttributes (241ms)
-				ProcessInitializeOnLoadMethodAttributes (52ms)
-				AfterProcessingInitializeOnLoad (11ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.24 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4057 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 48 unused Assets / (196.9 KB). Loaded Objects now: 4549.
-Memory consumption went from 151.4 MB to 151.2 MB.
-Total: 3.863300 ms (FindLiveObjects: 0.462200 ms CreateObjectMapping: 0.093800 ms MarkObjects: 3.135000 ms  DeleteObjects: 0.170800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 379.215361 seconds.
-  path: Assets/Script/WokaBula/WokaBula_Base.cs
-  artifactKey: Guid(edb7dc5aa1f38424aa8ceb476205fbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/WokaBula/WokaBula_Base.cs using Guid(edb7dc5aa1f38424aa8ceb476205fbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db96d1d732007c9fc738eca4db563580') in 0.009546 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 893.612660 seconds.
-  path: Assets/Script/WokaBula/WokaBula_Base.cs
-  artifactKey: Guid(edb7dc5aa1f38424aa8ceb476205fbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/WokaBula/WokaBula_Base.cs using Guid(edb7dc5aa1f38424aa8ceb476205fbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '47f435811573332c5eca8b35e44494f0') in 0.003141 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 819.587644 seconds.
-  path: Assets/Script/WokaBula/WokaBula_Base.cs
-  artifactKey: Guid(edb7dc5aa1f38424aa8ceb476205fbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/WokaBula/WokaBula_Base.cs using Guid(edb7dc5aa1f38424aa8ceb476205fbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67fb5a166a643a0f21add3e8d8864d4e') in 0.003577 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 571.826207 seconds.
-  path: Assets/Script/WokaBula/WokaBula_Base.cs
-  artifactKey: Guid(edb7dc5aa1f38424aa8ceb476205fbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/WokaBula/WokaBula_Base.cs using Guid(edb7dc5aa1f38424aa8ceb476205fbe9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9f297f169c78a02c8f84552035cbbbe') in 0.003263 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.023785 seconds.
+Registered in 0.019118 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image C:\Users\Ismail\Documents\GitHub\WokaBula\WokaBula\Woka Bula\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image C:\Users\Ismail\Documents\GitHub\WokaBula\WokaBula\Woka Bula\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
@@ -454,232 +172,40 @@ Native extension for WebGL target not found
 Refreshing native plugins compatible for Editor in 1.17 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.274 seconds
+- Completed reload, in  1.525 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1276ms)
-		BeginReloadAssembly (182ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (45ms)
-		EndReloadAssembly (965ms)
-			LoadAssemblies (145ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (294ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (434ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (95ms)
-				ProcessInitializeOnLoadAttributes (255ms)
-				ProcessInitializeOnLoadMethodAttributes (52ms)
-				AfterProcessingInitializeOnLoad (12ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (14ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.90 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4057 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 48 unused Assets / (197.0 KB). Loaded Objects now: 4552.
-Memory consumption went from 151.4 MB to 151.2 MB.
-Total: 4.574400 ms (FindLiveObjects: 0.456200 ms CreateObjectMapping: 0.114200 ms MarkObjects: 3.770900 ms  DeleteObjects: 0.231900 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.019067 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Ismail\Documents\GitHub\WokaBula\WokaBula\Woka Bula\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Ismail\Documents\GitHub\WokaBula\WokaBula\Woka Bula\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.21 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.455 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1456ms)
-		BeginReloadAssembly (223ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (54ms)
-		EndReloadAssembly (1095ms)
-			LoadAssemblies (189ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (353ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (65ms)
-			SetupLoadedEditorAssemblies (466ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (101ms)
-				ProcessInitializeOnLoadAttributes (284ms)
-				ProcessInitializeOnLoadMethodAttributes (49ms)
-				AfterProcessingInitializeOnLoad (13ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 4.65 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4057 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 48 unused Assets / (196.9 KB). Loaded Objects now: 4555.
-Memory consumption went from 151.4 MB to 151.2 MB.
-Total: 3.788000 ms (FindLiveObjects: 0.395500 ms CreateObjectMapping: 0.094500 ms MarkObjects: 3.098100 ms  DeleteObjects: 0.198600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 230.157976 seconds.
-  path: Assets/Recourses
-  artifactKey: Guid(c1a707c940f7ca440b448cbf16400fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Recourses using Guid(c1a707c940f7ca440b448cbf16400fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32673eb2bc9096166f56816632fdf78c') in 0.009803 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.297078 seconds.
-  path: Assets/Game
-  artifactKey: Guid(c1a707c940f7ca440b448cbf16400fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game using Guid(c1a707c940f7ca440b448cbf16400fb5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '244b9cff9590fbb40a3939e69ec5d719') in 0.004446 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.308019 seconds.
-  path: Assets/Game/Resources
-  artifactKey: Guid(ae9852a4ce0ce544ba50eb784b671de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Resources using Guid(ae9852a4ce0ce544ba50eb784b671de1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d53a753340124c9364fdd3cef362031') in 0.004190 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 29.872977 seconds.
-  path: Assets/Game/Resources/WokaBulas
-  artifactKey: Guid(b6a314f8f71088c47b0fae7d622a34dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Resources/WokaBulas using Guid(b6a314f8f71088c47b0fae7d622a34dd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d4e3180b98b4b0621c66d7579311aba') in 0.004045 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 147.113757 seconds.
-  path: Assets/Game/Resources/WokaBulas/Monster1.asset
-  artifactKey: Guid(9c2daf1a844ef7d4e96d770a40339482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Resources/WokaBulas/Monster1.asset using Guid(9c2daf1a844ef7d4e96d770a40339482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90d29eb3a8189597ae0869af77357a67') in 0.029205 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 412.555068 seconds.
-  path: Assets/Art/Snake_1.png
-  artifactKey: Guid(9018d744e0f184747afb448964adc3b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/Snake_1.png using Guid(9018d744e0f184747afb448964adc3b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7112a75012ec870a517d8d7ef9c134af') in 0.244062 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 25.315440 seconds.
-  path: Assets/Art/WokaBulas
-  artifactKey: Guid(a828e11ca2030f54cadddd5e66304d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/WokaBulas using Guid(a828e11ca2030f54cadddd5e66304d15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a3ad49ad1a95af8c5bfa8611634be41') in 0.003474 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 107.018215 seconds.
-  path: Assets/Game/Resources/WokaBulas/Monster1.asset
-  artifactKey: Guid(9c2daf1a844ef7d4e96d770a40339482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Resources/WokaBulas/Monster1.asset using Guid(9c2daf1a844ef7d4e96d770a40339482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecbd43ef18ac3085ab2fdf6671756e35') in 0.004033 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 55.085232 seconds.
-  path: Assets/Game/Resources/WokaBulas/Monster1.asset
-  artifactKey: Guid(9c2daf1a844ef7d4e96d770a40339482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Resources/WokaBulas/Monster1.asset using Guid(9c2daf1a844ef7d4e96d770a40339482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc7b8a2a16622949da628b5d6950920f') in 0.004144 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1353.069445 seconds.
-  path: Assets/Game/Resources/WokaBulas/Monster2.asset
-  artifactKey: Guid(80ca8d4cfeee48c4aa2979153a4bebc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Resources/WokaBulas/Monster2.asset using Guid(80ca8d4cfeee48c4aa2979153a4bebc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dd52e45656256d988a6e4e41a6bc85b') in 0.004609 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 66.962035 seconds.
-  path: Assets/Art/WokaBulas/Deer_1.png
-  artifactKey: Guid(b15d2944d8a8cd14cad3ff11af4f685f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Art/WokaBulas/Deer_1.png using Guid(b15d2944d8a8cd14cad3ff11af4f685f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a86435b903e8d2e4f884ed25a8563c3') in 0.025544 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 28.571409 seconds.
-  path: Assets/Game/Resources/WokaBulas/Monster2.asset
-  artifactKey: Guid(80ca8d4cfeee48c4aa2979153a4bebc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Game/Resources/WokaBulas/Monster2.asset using Guid(80ca8d4cfeee48c4aa2979153a4bebc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bbb85098e5f6012b9f9e40c809c61f8') in 0.004296 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 71.420026 seconds.
-  path: Assets/Script/WokaBula/WokaBula.cs
-  artifactKey: Guid(55935e359e0f787439f2119b2b620245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/WokaBula/WokaBula.cs using Guid(55935e359e0f787439f2119b2b620245) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28d70c9ed80a048c04c2be7a0151ae8c') in 0.003791 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.016338 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\Ismail\Documents\GitHub\WokaBula\WokaBula\Woka Bula\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\Ismail\Documents\GitHub\WokaBula\WokaBula\Woka Bula\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 1.28 ms, found 6 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  2.676 seconds
-Domain Reload Profiling:
-	ReloadAssembly (2677ms)
-		BeginReloadAssembly (228ms)
+	ReloadAssembly (1526ms)
+		BeginReloadAssembly (258ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (8ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (47ms)
-		EndReloadAssembly (1998ms)
-			LoadAssemblies (1087ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (298ms)
+			CreateAndSetChildDomain (61ms)
+		EndReloadAssembly (1114ms)
+			LoadAssemblies (210ms)
+			RebuildTransferFunctionScriptingTraits (1ms)
+			SetupTypeCache (324ms)
 			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (80ms)
-			SetupLoadedEditorAssemblies (467ms)
+			RebuildScriptCaches (65ms)
+			SetupLoadedEditorAssemblies (496ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (18ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (92ms)
-				ProcessInitializeOnLoadAttributes (293ms)
-				ProcessInitializeOnLoadMethodAttributes (49ms)
-				AfterProcessingInitializeOnLoad (12ms)
+				BeforeProcessingInitializeOnLoad (105ms)
+				ProcessInitializeOnLoadAttributes (300ms)
+				ProcessInitializeOnLoadMethodAttributes (56ms)
+				AfterProcessingInitializeOnLoad (15ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 58.71 ms, found 6 plugins.
+Refreshing native plugins compatible for Editor in 6.66 ms, found 6 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4058 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 48 unused Assets / (197.0 KB). Loaded Objects now: 4569.
-Memory consumption went from 155.8 MB to 155.6 MB.
-Total: 4.266100 ms (FindLiveObjects: 0.375800 ms CreateObjectMapping: 0.102300 ms MarkObjects: 3.532100 ms  DeleteObjects: 0.254500 ms)
+Unloading 4059 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 48 unused Assets / (197.1 KB). Loaded Objects now: 4542.
+Memory consumption went from 151.4 MB to 151.2 MB.
+Total: 5.298900 ms (FindLiveObjects: 0.429900 ms CreateObjectMapping: 0.130700 ms MarkObjects: 4.513800 ms  DeleteObjects: 0.222800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
