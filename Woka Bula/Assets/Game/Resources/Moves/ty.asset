@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 595cd2018c65c5541b19e0abae7e6cdb, type: 3}
   m_Name: ty
   m_EditorClassIdentifier: 
-  name: 
-  description: 
+  name: ty
+  description: Du
   type: 0
-  power: 0
+  power: 1
   accuracy: 0
