@@ -4,13 +4,26 @@ using UnityEngine;
 
 public class WokaBula
 {
-    WokaBula_Base _base;
+    WokaBula_Base _base;  // reference a script
     int level;
+
+    public int HP { get; set; }
+    public List<Move> Move { get; set; }
 
     public WokaBula(WokaBula_Base pbase, int plevel)
     {
         _base = pbase;
         level = plevel;
+        HP = _base.Max_Hp;
+
+        Move= new List<Move>();
+        foreach(var move in _base.Learnable_Moves)
+        {
+            if(move.Level <=level)
+                Move.Add(new Move(move.Base));
+            if (Move.Count >= 4)
+                break;
+        }
     }
 
 

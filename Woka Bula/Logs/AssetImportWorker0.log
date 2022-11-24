@@ -766,3 +766,79 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2528.030578 seconds.
+  path: Assets/Game/Resources/Moves
+  artifactKey: Guid(0247b0b9952c7554da18013b94dfe78a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Resources/Moves using Guid(0247b0b9952c7554da18013b94dfe78a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '020315a7e2eea57b78da43b4113038c3') in 0.012009 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.785224 seconds.
+  path: Assets/Game/Resources/Moves/Priviet.asset
+  artifactKey: Guid(7bff9fd779a09c4428dfc91c07683b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Resources/Moves/Priviet.asset using Guid(7bff9fd779a09c4428dfc91c07683b3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b25462ca3e7cea9a28440942055ccd7b') in 0.034585 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 70.996048 seconds.
+  path: Assets/Game/Resources/Moves/harachow.asset
+  artifactKey: Guid(9c32eb77ead625849a8ed622cf8d3eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Resources/Moves/harachow.asset using Guid(9c32eb77ead625849a8ed622cf8d3eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd96983ba65d810b8c629361fa132e4c5') in 0.005327 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 70.996965 seconds.
+  path: Assets/Game/Resources/Moves/zdes'.asset
+  artifactKey: Guid(9c32eb77ead625849a8ed622cf8d3eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Resources/Moves/zdes'.asset using Guid(9c32eb77ead625849a8ed622cf8d3eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2862c3a6241b8d906dee3aff64250a78') in 0.004809 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 83.069016 seconds.
+  path: Assets/Game/Resources/Moves/WokaBula.asset
+  artifactKey: Guid(ac12440f1b9cc2b438d02c8b8963f6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Resources/Moves/WokaBula.asset using Guid(ac12440f1b9cc2b438d02c8b8963f6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a0380fe016768a5a35d59a03a1e7e22') in 0.016898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 39.219771 seconds.
+  path: Assets/Game/Resources/Moves/kto.asset
+  artifactKey: Guid(ac12440f1b9cc2b438d02c8b8963f6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Resources/Moves/kto.asset using Guid(ac12440f1b9cc2b438d02c8b8963f6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c8591c23858886ff1eafe2569ffc5fe') in 0.005027 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.537981 seconds.
+  path: Assets/Game/Resources/Moves/ya.asset
+  artifactKey: Guid(9c32eb77ead625849a8ed622cf8d3eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Resources/Moves/ya.asset using Guid(9c32eb77ead625849a8ed622cf8d3eba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e4583ee830d4fa8e0a5419d97bca087') in 0.004522 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 109.634290 seconds.
+  path: Assets/Game/Resources/Moves/ty.asset
+  artifactKey: Guid(c560683d529a94a47b88225f317dd156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Resources/Moves/ty.asset using Guid(c560683d529a94a47b88225f317dd156) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e457ca50ff55981df1adb74f42296af') in 0.004426 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 93.142431 seconds.
+  path: Assets/Game/Resources/Moves/Menya.asset
+  artifactKey: Guid(22c3504dc4b57d64ab34296aa9ef9278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Resources/Moves/Menya.asset using Guid(22c3504dc4b57d64ab34296aa9ef9278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2f7fd4b6375a8e121a59b11232ebb498') in 0.004561 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 170.427986 seconds.
+  path: Assets/Game/Resources/Moves/paka.asset
+  artifactKey: Guid(22c3504dc4b57d64ab34296aa9ef9278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Resources/Moves/paka.asset using Guid(22c3504dc4b57d64ab34296aa9ef9278) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b1c6341b9f96126f7bae4b1f4f1eee9') in 0.004606 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 510.020524 seconds.
+  path: Assets/Game/Resources/Moves/kto.asset
+  artifactKey: Guid(ac12440f1b9cc2b438d02c8b8963f6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Resources/Moves/kto.asset using Guid(ac12440f1b9cc2b438d02c8b8963f6b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f812b45cdf78c13ddc8b50ceccc146e7') in 0.005184 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.203948 seconds.
+  path: Assets/Game/Resources/WokaBulas/Monster1.asset
+  artifactKey: Guid(9c2daf1a844ef7d4e96d770a40339482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Game/Resources/WokaBulas/Monster1.asset using Guid(9c2daf1a844ef7d4e96d770a40339482) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4bb39c09addbcd31bd11d74065d5bf7') in 0.007670 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
