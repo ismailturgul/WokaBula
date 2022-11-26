@@ -10,6 +10,6 @@ public class Move
     public Move(Move_Base pBase)
     {
         Base = pBase;
-        PP = pBase.PP;
+       // PP = pBase.PP;  << compiler error
     }   
 }

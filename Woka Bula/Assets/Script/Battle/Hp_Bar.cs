@@ -9,6 +9,6 @@ public class Hp_Bar : MonoBehaviour
 
     private void Start()
     {
-        health.transform.localScale = new Vector3(0, 5f, 1);
+        health.transform.localScale = new Vector3(0.5f, 1);
     }
 }
