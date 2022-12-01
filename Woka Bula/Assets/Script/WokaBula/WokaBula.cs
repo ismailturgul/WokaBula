@@ -4,22 +4,22 @@ using UnityEngine;
 
 public class WokaBula
 {
-    WokaBula_Base _base;  // reference a script
-    int level;
+    public WokaBula_Base Base { get; set; }  // reference a script (script name + variable for it )
+    public int Level { get; set; }
 
     public int HP { get; set; }
     public List<Move> Move { get; set; }
 
     public WokaBula(WokaBula_Base pbase, int plevel)
     {
-        _base = pbase;
-        level = plevel;
-        HP = _base.Max_Hp;
+        Base = pbase;
+        Level = plevel;
+        HP = Base.Max_Hp;
 
         Move= new List<Move>();
-        foreach(var move in _base.Learnable_Moves)
+        foreach(var move in Base.Learnable_Moves)
         {
-            if(move.Level <=level)
+            if(move.Level <=Level)
                 Move.Add(new Move(move.Base));
             if (Move.Count >= 4)
                 break;
@@ -29,26 +29,26 @@ public class WokaBula
 
     public int Attack
     {
-        get { return Mathf.FloorToInt((_base.Attack * level) / 100f) + 5; }
+        get { return Mathf.FloorToInt((Base.Attack * Level) / 100f) + 5; }
     }
     public int Defense
     {
-        get { return Mathf.FloorToInt((_base.Defense * level) / 100f) + 5; }
+        get { return Mathf.FloorToInt((Base.Defense * Level) / 100f) + 5; }
     }
     public int Sp_Attack
     {
-        get { return Mathf.FloorToInt((_base.Sp_Attack * level) / 100f) + 5; }
+        get { return Mathf.FloorToInt((Base.Sp_Attack * Level) / 100f) + 5; }
     }
     public int Sp_Defense
     {
-        get { return Mathf.FloorToInt((_base.Sp_Defense * level) / 100f) + 5; }
+        get { return Mathf.FloorToInt((Base.Sp_Defense * Level) / 100f) + 5; }
     }
     public int Speed
     {
-        get { return Mathf.FloorToInt((_base.Speed * level) / 100f) + 5; }
+        get { return Mathf.FloorToInt((Base.Speed * Level) / 100f) + 5; }
     }
     public int Max_Hp
     {
-        get { return Mathf.FloorToInt((_base.Max_Hp * level) / 100f) + 10; }
+        get { return Mathf.FloorToInt((Base.Max_Hp * Level) / 100f) + 10; }
     }
 }
