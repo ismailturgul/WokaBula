@@ -14,7 +14,7 @@ public class WokaBula
     {
         Base = pbase;
         Level = plevel;
-        HP = Base.Max_Hp;
+        HP = Max_Hp;
 
         Move= new List<Move>();
         foreach(var move in Base.Learnable_Moves)
