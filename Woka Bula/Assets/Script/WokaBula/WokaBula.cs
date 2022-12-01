@@ -19,7 +19,7 @@ public class WokaBula
         Move= new List<Move>();
         foreach(var move in Base.Learnable_Moves)
         {
-            if(move.Level <=Level)
+            if(move.Level <= Level)
                 Move.Add(new Move(move.Base));
             if (Move.Count >= 4)
                 break;

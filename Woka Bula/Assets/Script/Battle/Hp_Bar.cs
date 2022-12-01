@@ -7,8 +7,10 @@ public class Hp_Bar : MonoBehaviour
     [SerializeField] GameObject health;
 
 
-    private void Start()
+    public void SetHP(float hp_Normalized)
     {
-        health.transform.localScale = new Vector3(0.5f, 1);
+        health.transform.localScale = new Vector3(hp_Normalized, 1);
     }
+
+
 }
